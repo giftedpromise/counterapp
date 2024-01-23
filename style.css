@@ -58,3 +58,37 @@ button {
 #save-btn {
   background: green;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: skyblue;
+  }
+
+  #count-el {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width: 200px;
+
+    font-size: 2rem;
+  }
+
+  #increment-btn {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  #save-el {
+    font-size: 2rem;
+  }
+}
